@@ -55,15 +55,6 @@ body {
 
 /* Maps */
 .google-maps iframe {
-    padding-top: 10px;
     width: 100%;
     height: 330%;
-}
-
-.section-one {
-
-}
-
-.section-one ol {
-
 }

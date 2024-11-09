@@ -5,10 +5,16 @@
 :root{
     --black: #000;
     --light-grey: #333;
+    --dark-grey: #111;
+    --lighter-grey: #666;
     --red: #c82113;
     --dark-red: #94180e;
     --light-blue: #1085df;
     --dark-blue: #0e5a94;
+}
+
+body {
+    background-color: var(--light-grey);
 }
 
 /* MAIN CONTAINER */
@@ -17,6 +23,7 @@
     border-color: black;
     max-width: 950px;
     margin: auto;
+    background-color: var(--lighter-grey);
 }
 
 /* MAIN HEADER */
@@ -48,7 +55,6 @@
 
 /* Maps */
 .google-maps iframe {
-    padding-top: 10px;
     width: 100%;
     height: 330%;
 }
