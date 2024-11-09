@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@200;400;600&display=swap');
 @import url(nav.css);
-@import url(August.css);
-@import url(BK.css);
-@import url(Ellehauge.css);
-@import url(Fabian.css);
-@import url(LJ.css);
-@import url(Oliver.css);
-@import url(Rask.css);
-@import url(Rasmus.css);
-@import url(Robdrup.css);
 
 :root{
     --black: #000;
