@@ -32,8 +32,9 @@ body {
 }
 
 .header-main img {
-    display: block;
+    display: flex;
     width: 100%;
+    max-height: 450px;
 }
 
 .header-main hgroup {
@@ -57,4 +58,14 @@ body {
 .google-maps iframe {
     width: 100%;
     height: 200px;
+}
+
+.Fabian-collage {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+.Fabian-collage img {
+    margin: 5px;
 }
