@@ -33,9 +33,10 @@ body {
 
 .header-main img {
     display: block;
+    position: relative;
     width: 100%;
+    max-height: 450px;
 }
-
 .header-main hgroup {
     position: absolute;
     display: flex;
