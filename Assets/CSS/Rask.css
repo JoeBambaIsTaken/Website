@@ -70,3 +70,13 @@ body {
 .rask-collage img {
     margin: 5px;
 }
+
+.rask-spotify {
+    display: flex;
+    margin: 1rem;
+}
+
+.rask-spotify iframe {
+    margin: 7px;
+}
+
