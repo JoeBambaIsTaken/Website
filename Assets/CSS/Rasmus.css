@@ -61,6 +61,19 @@ body {
     height: 200px;
 }
 
+.sections {
+    border-style: solid;
+    border-color: black;
+    max-width: 800px;
+    margin: auto;
+}
+
+.sections h1 {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+
 .rasmus-collage {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -69,4 +82,20 @@ body {
 
 .rasmus-collage img {
     margin: 5px;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.rasmus-horizontal {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.rasmus-horizontal img {
+    margin: 5px;
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: auto;
 }
