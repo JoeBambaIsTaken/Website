@@ -75,6 +75,13 @@ body {
 }
 
 .august-collage {
+    border-style: solid;
+    border-top: var(--lighter-grey);
+    border-left: var(--lighter-grey);
+    border-right: var(--lighter-grey);
+    max-width: 800px;
+    padding-bottom: 1rem;
+    margin: auto;
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
