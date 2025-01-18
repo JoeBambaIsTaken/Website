@@ -62,10 +62,10 @@ body {
 }
 
 .sections {
-    border-style: solid;
-    border-color: black;
-    max-width: 800px;
-    margin: auto;
+   border-style: solid; 
+   border-color: #000;
+   max-width: 800px;
+   margin: auto;
 }
 
 .sections h1 {
@@ -75,13 +75,6 @@ body {
 }
 
 .august-collage {
-    border-style: solid;
-    border-top: var(--lighter-grey);
-    border-left: var(--lighter-grey);
-    border-right: var(--lighter-grey);
-    max-width: 800px;
-    padding-bottom: 1rem;
-    margin: auto;
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
