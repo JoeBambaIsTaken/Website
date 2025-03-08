@@ -93,4 +93,8 @@ body {
 .robdrup-horizontal img {
     margin: 5px;
     border-radius: 10px;
+    height: 60%;
+    max-height: 240px;
+    width: 60%;
+    max-width: 340px;
 }
