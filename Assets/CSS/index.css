@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@200;400;600&display=swap');
+@import url(nav.css);
+
+:root{
+    --black: #000;
+    --light-grey: #333;
+    --dark-grey: #111;
+    --lighter-grey: #666;
+    --red: #c82113;
+    --dark-red: #94180e;
+    --light-blue: #1085df;
+    --dark-blue: #0e5a94;
+}
+
+.hidden-nav {
+    position: absolute;
+    color: var(--black);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
