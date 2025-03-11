@@ -75,9 +75,19 @@ body {
 }
 
 .rasmus-collage {
+    border-style: solid;
+    border-top: var(--lighter-grey);
+    border-left: var(--lighter-grey);
+    border-right: var(--lighter-grey);
+    max-width: 800px;
+    padding-bottom: 1rem;
+    margin: auto;
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
+    /* display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center; */
 }
 
 .rasmus-collage img {
@@ -88,9 +98,20 @@ body {
 }
 
 .rasmus-horizontal {
+    border-style: solid;
+    border-top: var(--lighter-grey);
+    border-left: var(--lighter-grey);
+    border-right: var(--lighter-grey);
+    max-width: 800px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: auto;
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
+    /* display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center; */
 }
 
 .rasmus-horizontal img {
@@ -100,4 +121,19 @@ body {
     max-height: 240px;
     width: 60%;
     max-width: 340px;
+}
+
+.Corsa {
+    padding-bottom: 1rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+.Corsa img {
+    margin: 5px;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
 }
