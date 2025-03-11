@@ -35,23 +35,11 @@
 }
 
 @media screen and (max-width: 600px) {
-  .nav-main a:not(:first-child) {display: none;}
-  .nav-main a.icon {
-    float: right;
-    display: block;
+  .nav-main a:not(:first-child) {
+    display: none;
   }
 }
 
-@media screen and (max-width: 600px) {
-  .nav-main.responsive {position: relative;}
-  .nav-main.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .nav-main.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
+.hidden-nav {
+  color: var(--light-grey);
 }
