@@ -11,6 +11,9 @@
     --dark-red: #94180e;
     --light-blue: #1085df;
     --dark-blue: #0e5a94;
+    --wine-red: #722F37;
+    --maroon-red: #800000;
+    --myrtle: #21421E;
 }
 
 body {
@@ -72,11 +75,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+}
 
 .unedited-videos {
     display: flex;
     justify-content: space-around;
     gap: 50;
 }
-
