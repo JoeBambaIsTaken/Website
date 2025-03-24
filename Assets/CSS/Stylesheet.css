@@ -82,3 +82,10 @@ body {
     justify-content: space-around;
     gap: 50;
 }
+
+.section-one h1 {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    color: white;
+}
