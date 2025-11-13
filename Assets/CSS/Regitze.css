@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@200;400;600&display=swap');
+@import url(nav.css);
+
+:root{
+    --black: #000;
+    --light-grey: #333;
+    --dark-grey: #111;
+    --lighter-grey: #666;
+    --red: #c82113;
+    --dark-red: #94180e;
+    --light-blue: #1085df;
+    --dark-blue: #0e5a94;
+}
+
+body {
+    background-color: var(--light-grey);
+}
+
+/* MAIN CONTAINER */
+.container-main {
+    border-style: solid;
+    border-color: black;
+    max-width: 950px;
+    margin: auto;
+    background-color: var(--lighter-grey);
+}
+
+/* MAIN HEADER */
+.header-main {
+    position: relative;
+}
+
+.header-main img {
+    display: block;
+    position: relative;
+    width: 100%;
+    max-height: 450px;
+}
+
+.header-main hgroup {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.header-main hgroup img {
+    width: 30%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.sections {
+    border-style: solid;
+    border-color: black;
+    max-width: 800px;
+    margin: auto;
+}
+
+.sections h1 {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+
+.spil-liste {
+    text-align: center;
+}
+
+.SpilUL {
+    display: inline-block;
+    text-align: left;
+}
+
+.spil-liste li a{
+    text-decoration: none;
+    color: var(--dark-grey);
+    padding: 4px;
+    font-size: 22px;
+}
+
+.spil-liste li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}

@@ -64,9 +64,10 @@ body {
 }
 
 .edited-videos {
-    display: flex;
-    justify-content: space-around;
-    gap: 50;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    aspect-ratio: 4 / 3;
 }
 
 .video1 {

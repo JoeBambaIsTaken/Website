@@ -74,15 +74,22 @@ body {
     justify-content: center;
 }
 
-.Fabian-collage {
+.fabian-collage {
+    border-style: solid;
+    border-top: var(--lighter-grey);
+    border-left: var(--lighter-grey);
+    border-right: var(--lighter-grey);
+    max-width: 800px;
+    padding-bottom: 1rem;
     display: grid;
     grid-template-columns: auto auto auto;
-    justify-content: center;
+    place-items: center;
 }
 
-.Fabian-collage img {
+.fabian-collage img {
     margin: 5px;
     border-radius: 10px;
-    max-width: 100%;
-    height: auto;
+    max-width: 90%;
+    height: 350px;
+    aspect-ratio: 16 / 9;
 }

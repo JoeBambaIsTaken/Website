@@ -68,6 +68,26 @@ body {
     justify-content: center;
 }
 
+.oliver-collage {
+    border-style: solid;
+    border-top: var(--lighter-grey);
+    border-left: var(--lighter-grey);
+    border-right: var(--lighter-grey);
+    max-width: 800px;
+    padding-bottom: 1rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-items: center;
+}
+
+.oliver-collage img {
+    margin: 5px;
+    border-radius: 10px;
+    max-width: 90%;
+    height: 350px;
+    aspect-ratio: 16 / 9;
+}
+
 .oliver-music  {
     display: flex;
     justify-content: center;
@@ -79,4 +99,9 @@ body {
     width: 100%;
     max-width: 455px;
     border-radius: 20px;
+}
+
+.Regitze {
+    text-decoration: none;
+    color: var(--lighter-grey);
 }
